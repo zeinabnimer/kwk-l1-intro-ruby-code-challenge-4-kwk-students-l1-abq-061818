@@ -16,5 +16,9 @@ dimes = quartersR/10
 puts dimes
 dimesR = quartersR%10
 puts dimesR
+nickels = dimesR/5
+puts nickels
+nickelsR = dimesR%5
+puts nickelsR
 end
 least_coins(87)
