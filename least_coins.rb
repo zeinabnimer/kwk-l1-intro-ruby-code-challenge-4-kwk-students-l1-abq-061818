@@ -21,7 +21,7 @@ puts nickels
 nickelsR = dimesR%5
 puts nickelsR
 pennies = nickelsR/1
-puts nickels
+puts pennies
 penniesR = nickelsR%1
 puts penniesR
 end
