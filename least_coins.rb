@@ -34,5 +34,6 @@ change ["nickels"] = nickels
 puts change
 change ["pennies"] = pennies
 puts change
+return change 
 end
 least_coins(87)
