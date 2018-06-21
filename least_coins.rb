@@ -7,15 +7,6 @@ def least_coins(cents)
 #1/5 = 0 R 1
 #1/1 = 1
 
-change = {}
-change ["quarters"]=quarters
-puts change
-change ["dimes"]=dimes
-puts change
-change ["nickels"]=nickels
-puts change
-change ["pennies"]=pennies
-puts change
 
 
 quarters = cents/25
@@ -34,5 +25,14 @@ pennies = nickelsR/1
 puts pennies
 penniesR = nickelsR%1
 puts penniesR
+change = {}
+change ["quarters"] = quarters
+puts change
+change ["dimes"] = dimes
+puts change
+change ["nickels"] = nickels
+puts change
+change ["pennies"] = pennies
+puts change
 end
 least_coins(87)
