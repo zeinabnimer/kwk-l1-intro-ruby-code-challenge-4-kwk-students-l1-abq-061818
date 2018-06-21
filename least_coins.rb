@@ -8,7 +8,7 @@ def least_coins(cents)
 #1/1 = 1
 
 quarters = cents/25
-puts quarters
 quarters = cents%25
+puts quarters
 end
 least_coins(87)
