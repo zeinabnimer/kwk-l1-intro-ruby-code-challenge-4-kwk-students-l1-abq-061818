@@ -20,5 +20,9 @@ nickels = dimesR/5
 puts nickels
 nickelsR = dimesR%5
 puts nickelsR
+pennies = nickelsR/1
+puts nickels
+penniesR = nickelsR%1
+puts penniesR
 end
 least_coins(87)
