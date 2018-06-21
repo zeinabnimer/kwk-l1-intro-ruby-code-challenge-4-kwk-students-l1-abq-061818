@@ -25,4 +25,4 @@ puts pennies
 penniesR = nickelsR%1
 puts penniesR
 end
-least_coins(87)
+least_coins(87) = {}
